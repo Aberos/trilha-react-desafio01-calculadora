@@ -1,10 +1,12 @@
 
 import { InputContainer } from './styles';
+import Span from '../Span';
 
-const Input = ({value}) => {
+const Input = ({value, spanText}) => {
     return (
       <InputContainer>
-       <input disabled value={value}/>
+        <Span text={spanText} />
+        <input disabled value={value}/>
       </InputContainer>
     );
   }

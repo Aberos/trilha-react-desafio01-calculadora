@@ -12,6 +12,7 @@ export const InputContainer = styled.div`
     font-size: 24px;
     font-family: 'Roboto';
     
+    position: relative;
 
     input {
         width: 100%;
@@ -25,5 +26,6 @@ export const InputContainer = styled.div`
         font-size: 24px;
         font-family: 'Roboto';
         color: #FFFFFF;
+        text-align: right;
     }
 `
